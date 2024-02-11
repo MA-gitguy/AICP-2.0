@@ -58,7 +58,7 @@ path = 'D:\Career\Internships\AICP_2.0\Data_1\SampleWork.xlsx'
 E_col = [0, -1]
 E_s_rows=[2]
 
-E_df = pd.read_excel(path, sheet_name=0 usecols=E_col, skiprows=E_s_rows, header=1)
+E_df = pd.read_excel(path, sheet_name=0 ,usecols=E_col, skiprows=E_s_rows, header=1)
 
 E_df.to_excel('D:\Career\Internships\AICP_2.0\Data_1\ASampleWork.xlsx', index=False)
 
