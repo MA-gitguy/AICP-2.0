@@ -12,7 +12,7 @@ plt.xlabel("X-axis")
 plt.ylabel("Y-axis")
 
 plt.xlim([1.0, 3.0])
-plt.xlim([1.0, 4.0])
+plt.ylim([1.0, 4.0])
 
 plt.xticks([1.0, 1.5, 2.0, 2.5, 3.0])
 plt.yticks([1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0])
